@@ -134,6 +134,7 @@ gh repo view nongrujiu99/c4d-material-replace --json name,visibility,url,pushedA
 gh api repos/nongrujiu99/c4d-material-replace/git/trees/main?recursive=1 --jq '.tree[].path'
 
 # 5. 本地单测
+python -m pip install pytest     # 若尚未安装测试依赖
 python -m pytest tests -q        # 65 passed
 ```
 

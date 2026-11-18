@@ -91,6 +91,7 @@ tests/test_material_replace.py  # 65 条单元测试
 ## 七、自测
 
 ```bash
+python -m pip install pytest     # 若尚未安装
 python -m pytest tests -q
 ```
 

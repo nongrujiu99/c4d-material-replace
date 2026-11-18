@@ -4,6 +4,5 @@
 *.sh text eol=lf
 *.ps1 text eol=crlf
 
-# C4D 脚本保持 LF，跨平台不改内容
-*.py text eol=lf
-*.pyp text eol=lf
+# .py / .pyp 交给 text=auto：按各平台默认换行检出，
+# 避免 Windows 上 clone 出来的脚本与已安装版本字节不同、反复生成 .bak。
