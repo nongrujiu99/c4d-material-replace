@@ -1,0 +1,9 @@
+* text=auto
+
+# 安装脚本按平台固定换行，避免 macOS/Linux 下 shebang 失效
+*.sh text eol=lf
+*.ps1 text eol=crlf
+
+# C4D 脚本保持 LF，跨平台不改内容
+*.py text eol=lf
+*.pyp text eol=lf
